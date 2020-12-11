@@ -1,6 +1,5 @@
 from random import randint
 
-
 name_list = ['Damian', 'Ola', 'Barbara', 'Robert', 'Zygmunt', 'Ewa']
 first_letter_list = [element[0] for element in name_list]
 print(first_letter_list)
