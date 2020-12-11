@@ -3,9 +3,9 @@ def print_args(*args, **kwargs):
         print(arg)
     for key, value in kwargs.items():
         print("{0}: {1}".format(key, value))
-print_args("arg1", "arg2", Key1="value1", Key2="value2")
+print_args("arg1", "arg2", key1="value1", key2="value2")
 
-# parametr *others musi znajdowac się na końcu
+# parametr *others musi znajdować się na końcu
 def person_print(name, last_name, age, *others):
     formatted_data = 'Imię: {}, nazwisko: {}, wiek: {}'.format(name,last_name,age)
     others_str = ' '
