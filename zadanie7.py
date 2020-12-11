@@ -3,8 +3,6 @@ def print_args(*args, **kwargs):
         print(arg)
     for key, value in kwargs.items():
         print("{0}: {1}".format(key, value))
-
-
 print_args("arg1", "arg2", Key1="value1", Key2="value2")
 
 # parametr *others musi znajdowac się na końcu
