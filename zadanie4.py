@@ -21,7 +21,7 @@ start_time = time.time()
 
 count = long_list.count(szukana)
 if count:
-     print("Liczba występuje na liście {} razy.".format(count))
+    print("Liczba występuje na liście {} razy.".format(count))
 else:
     print("Liczba nie znajduję się w liście")
 
@@ -60,7 +60,7 @@ for i in range(len_list):
     if long_list[i] == szukana:
         print("Liczba wystepuje na liscie.")
         break
-    if i+1 == len_list:
+    if i + 1 == len_list:
         print("Liczba nie znajduje się na liście")
 
 print('Czas trwania przeszukiwania:', time.time() - start_time)
