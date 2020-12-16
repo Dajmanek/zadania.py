@@ -16,5 +16,5 @@ def person_print(name, last_name, *others, age):
         others_str += arg + ' '
     print(formatted_data + others_str)
 
-# Trzeba określić, że liczba 21 będzie przypisana do parametru age
+# Trzeba określić, że liczba 21 będzie parametrem age
 person_print("Damian", "Sternik", "other1", "other2", age=21)
