@@ -13,7 +13,5 @@ bridge_of_death = '''
 -Niebieski... nie... żóóóółtyyyy!'''
 
 word_list = re.sub("[-.?!]", "", re.sub("\n", " ", bridge_of_death)).split(" ")
-print(list(filter(lambda element: len(element) > 4, word_list)))
-
-
-
+filtered_word_list = list(filter(lambda element: len(element) >= 4, word_list))
+print(filtered_word_list)
