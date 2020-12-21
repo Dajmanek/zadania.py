@@ -1,5 +1,5 @@
 password = "haslo"
-number_of_tires = 3
+number_of_tries = 3
 for i in range(number_of_tires):
     if input() == password:
         print("Gratulacje")
